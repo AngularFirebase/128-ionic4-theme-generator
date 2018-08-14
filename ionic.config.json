@@ -1,0 +1,7 @@
+{
+  "name": "ionCSS",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
