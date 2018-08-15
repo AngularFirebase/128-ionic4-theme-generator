@@ -1,1 +1,19 @@
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
 
+.spin {
+    animation: spin var(--speed) linear infinite;
+}
+
+ion-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    width: 500px;
+}
